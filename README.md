@@ -1,2 +1,0 @@
-# DFIR-WinFor
- 

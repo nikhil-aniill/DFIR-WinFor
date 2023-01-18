@@ -1,1 +1,43 @@
-{}
+{
+  "obsidian-git:pull": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "="
+    }
+  ],
+  "editor:insert-tag": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "T"
+    }
+  ],
+  "editor:set-heading-4": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "4"
+    }
+  ],
+  "editor:set-heading-3": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "3"
+    }
+  ],
+  "editor:set-heading-6": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "6"
+    }
+  ]
+}

@@ -13,13 +13,170 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Test.md",
+                "file": "Registry/HKCU.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3be6c49031d873d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Registry/HKCU.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a6050b2e46708d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Registry/ComDlg32.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f160d5792d71779b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Registry/Recent Docs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "63355edd35b4d833",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Registry/RunMRU.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ba4edc7a80a88857",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Registry/User Typed Paths.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a2988116ed9ab0ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Registry/UserAssist.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ebf3299e360044cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Registry/Run_Run-Once.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7edeb2a0f3e823a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Registry/ShellBags.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b4cf7b13f206b90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Registry/UsrClass.dat.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "92a61abcdfea6c99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Registry/Prefetch.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8fc1ebcf6d4a6727",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Registry/ShellBags.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "474649d8ac591b55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Registry/Prefetch.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "de7b9dc16315fd79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Registry/UsrClass.dat.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -48,7 +205,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Key",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Test.md",
+                "file": "Registry/UsrClass.dat.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Test.md",
+                "file": "Registry/UsrClass.dat.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +282,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Test.md"
+                "file": "Registry/UsrClass.dat.md"
               }
             }
           }
@@ -146,8 +303,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c61d261794f8908f",
+  "active": "de7b9dc16315fd79",
   "lastOpenFiles": [
-    "README.md"
+    "Registry/ShellBags.md",
+    "Registry/UsrClass.dat.md",
+    "Registry/C_Windows.md",
+    "Registry/Prefetch.md",
+    "Registry/System Resource Usage Monitor.md",
+    "Registry/ShimCache.md",
+    "Registry/HKLM.md",
+    "Registry/HKCU.md",
+    "Registry/UserAssist.md",
+    "Untitled.canvas"
   ]
 }

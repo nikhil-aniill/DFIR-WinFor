@@ -1,0 +1,65 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#Application_Execution",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    },
+    {
+      "query": "tag:#File_Folder_Opening",
+      "color": {
+        "a": 1,
+        "rgb": 716825
+      }
+    },
+    {
+      "query": "tag:#Deleted_Items_File_Existence",
+      "color": {
+        "a": 1,
+        "rgb": 9568925
+      }
+    },
+    {
+      "query": "tag:#System_Information",
+      "color": {
+        "a": 1,
+        "rgb": 91881
+      }
+    },
+    {
+      "query": "tag:#Windows",
+      "color": {
+        "a": 1,
+        "rgb": 16711769
+      }
+    },
+    {
+      "query": "tag:#Hive",
+      "color": {
+        "a": 1,
+        "rgb": 13107455
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -0.3,
+  "nodeSizeMultiplier": 1.42607655502392,
+  "lineSizeMultiplier": 4.66985645933014,
+  "collapse-forces": false,
+  "centerStrength": 0.262376721023338,
+  "repelStrength": 8.30778244312079,
+  "linkStrength": 0.242993848257006,
+  "linkDistance": 500,
+  "scale": 1.209203865149455,
+  "close": false
+}

@@ -1,4 +1,4 @@
-#Hive 
+#Source
 This Hive is linked to the NTUSER.dat
 
 [[ComDlg32]]

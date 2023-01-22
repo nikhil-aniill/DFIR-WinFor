@@ -43,10 +43,24 @@
       }
     },
     {
-      "query": "tag:#Hive",
+      "query": "tag:#Source",
       "color": {
         "a": 1,
         "rgb": 13107455
+      }
+    },
+    {
+      "query": "tag:#Disk",
+      "color": {
+        "a": 1,
+        "rgb": 519658
+      }
+    },
+    {
+      "query": "tag:#Acount_Usage",
+      "color": {
+        "a": 1,
+        "rgb": 3473903
       }
     }
   ],
@@ -56,10 +70,10 @@
   "nodeSizeMultiplier": 1.42607655502392,
   "lineSizeMultiplier": 4.66985645933014,
   "collapse-forces": false,
-  "centerStrength": 0.262376721023338,
-  "repelStrength": 8.30778244312079,
-  "linkStrength": 0.242993848257006,
-  "linkDistance": 500,
-  "scale": 1.209203865149455,
+  "centerStrength": 0.3526999316473,
+  "repelStrength": 9.25007323503564,
+  "linkStrength": 0.322234156820623,
+  "linkDistance": 126,
+  "scale": 0.9502398502899292,
   "close": false
 }

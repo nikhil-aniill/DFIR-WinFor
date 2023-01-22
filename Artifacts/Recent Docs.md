@@ -1,5 +1,4 @@
-Registry key tracking the last files and folders opened(.LNK files). Used to populate  
-data in places like the “Recent” menus present in some Start menus.
+Registry key tracking the last files and folders opened(.LNK files). Used to populate data in places like the “Recent” menus present in some Start menus.
 
 ###### Location
 This located in the NTUSER.DAT\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\RecentDocs

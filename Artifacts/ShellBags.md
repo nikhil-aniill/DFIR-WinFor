@@ -1,8 +1,8 @@
 #File_Folder_Opening 
-
+#Deleted_Items_File_Existence 
 Shell bags identifies which folders were accessed on the local machine, via  
 the network, and on removable devices, per user. It also shows evidence of  
-previously existing folders still present after deletion/overwrite.
+previously existing folders still **present after deletion/overwrite**.
 
 It also shows if a USB connected and copied over a anti-forensics tool
 
@@ -24,7 +24,7 @@ view mode.**
 • Folder file system timestamps are archived in addition to first and last  
 interaction times  
 • “Exotic” items recorded like mobile device info, control panel access, and  
-Zip archive access
+**Zip archive** access
 
 ![[Pasted image 20230117111133.png]]
 

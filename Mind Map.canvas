@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"bcf78fb8522e27a0","x":-200,"y":-200,"width":400,"height":50,"color":"1","type":"file","file":"Artifacts/UserAssist.md"},
+		{"id":"dc6d3b07e19d8341","x":-534,"y":-61,"width":334,"height":72,"type":"text","text":"GUI based program execution\nROT 13 encoded\n"},
+		{"id":"8cdee1d5cfa6e642","x":-21,"y":195,"width":400,"height":296,"type":"file","file":"Artifacts/ShimCache.md"},
+		{"id":"9965ba7e4e61ae56","x":678,"y":-128,"width":400,"height":400,"type":"file","file":"Artifacts/Amcache.hve.md"},
+		{"id":"8f17e47d1f414fae","x":212,"y":689,"width":400,"height":400,"type":"file","file":"Artifacts/Recent Docs.md"},
+		{"id":"8f9b7b4e60221a47","x":1518,"y":460,"width":400,"height":400,"type":"file","file":"Artifacts/ShellBags.md"},
+		{"id":"de3e0a16d72991e0","x":1267,"y":-306,"width":400,"height":400,"type":"file","file":"Artifacts/User Typed Paths.md"},
+		{"id":"e16fce6844779daf","x":-443,"y":1088,"width":400,"height":400,"type":"file","file":"Artifacts/UsrClass.dat.md"},
+		{"id":"d28cf739be4c7a6b","x":-573,"y":113,"width":352,"height":60,"type":"text","text":"exe Icons shown in explorer window"},
+		{"id":"3512a5ea769b32d0","x":991,"y":1142,"width":400,"height":400,"type":"file","file":"Artifacts/Prefetch.md"},
+		{"id":"c1dfaacdee8b64c2","x":825,"y":460,"width":400,"height":400,"type":"file","file":"Artifacts/Run_Run-Once.md"}
+	],
+	"edges":[
+		{"id":"459a61dd63a23994","fromNode":"bcf78fb8522e27a0","fromSide":"left","toNode":"dc6d3b07e19d8341","toSide":"top"},
+		{"id":"aa98ce8c1f58e2f7","fromNode":"8cdee1d5cfa6e642","fromSide":"left","toNode":"d28cf739be4c7a6b","toSide":"right"}
+	]
+}

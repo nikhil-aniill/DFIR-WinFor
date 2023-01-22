@@ -8,175 +8,55 @@
         "type": "tabs",
         "children": [
           {
-            "id": "056aeef977e0294b",
+            "id": "920aca1e878f5c63",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Registry/HKCU.md",
+                "file": "Timestamps/MACB.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3be6c49031d873d9",
+            "id": "bcb21efaf548e0a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Registry/HKCU.md",
+                "file": "Memory_Forensics/Process Genealogy.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4a6050b2e46708d1",
+            "id": "7c76103836cd3bb4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Registry/ComDlg32.md",
+                "file": "Memory_Forensics/Volatility.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f160d5792d71779b",
+            "id": "bd2b5da06adb76ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Registry/Recent Docs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "63355edd35b4d833",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Registry/RunMRU.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ba4edc7a80a88857",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Registry/User Typed Paths.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a2988116ed9ab0ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Registry/UserAssist.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ebf3299e360044cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Registry/Run_Run-Once.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7edeb2a0f3e823a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Registry/ShellBags.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1b4cf7b13f206b90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Registry/UsrClass.dat.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "92a61abcdfea6c99",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Registry/Prefetch.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8fc1ebcf6d4a6727",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Registry/ShellBags.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "474649d8ac591b55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Registry/Prefetch.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "de7b9dc16315fd79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Registry/UsrClass.dat.md",
+                "file": "Triage/Memory.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -205,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Key",
+                "query": "tag:#Hiv",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -242,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Registry/UsrClass.dat.md",
+                "file": "Memory_Forensics/Process Genealogy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Registry/UsrClass.dat.md",
+                "file": "Memory_Forensics/Process Genealogy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -282,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Registry/UsrClass.dat.md"
+                "file": "Memory_Forensics/Process Genealogy.md"
               }
             }
           }
@@ -303,17 +183,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "de7b9dc16315fd79",
+  "active": "bcb21efaf548e0a3",
   "lastOpenFiles": [
-    "Registry/ShellBags.md",
-    "Registry/UsrClass.dat.md",
-    "Registry/C_Windows.md",
-    "Registry/Prefetch.md",
-    "Registry/System Resource Usage Monitor.md",
-    "Registry/ShimCache.md",
-    "Registry/HKLM.md",
-    "Registry/HKCU.md",
-    "Registry/UserAssist.md",
-    "Untitled.canvas"
+    "Memory_Forensics/Volatility.md",
+    "Memory_Forensics/Process Genealogy.md",
+    "Timestamps/MACB.md",
+    "Timestamps/$FILE_NAME.md",
+    "Mind Map.canvas",
+    "Triage/Memory.md",
+    "Artifacts/UserAssist.md",
+    "Artifacts/Recent Docs.md",
+    "Artifacts/Amcache.hve.md",
+    "Artifacts/Windows Search Database.md"
   ]
 }

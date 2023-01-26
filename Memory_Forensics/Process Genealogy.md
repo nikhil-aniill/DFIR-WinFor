@@ -1,2 +1,38 @@
- - svchost.exe is part of the 
+
 - ![[Pasted image 20230122182614.png]]
+- **System** has no executable file path as it's not spawned from an executable. 
+	- The System process is responsible for most kernel-mode threads. Modules run under System are primarily drivers (.sys files), but also include several important DLLs as well as the kernel executable, ntoskrnl.exe
+	- It always has a PID of 4. All of the windows processes are divisble by 4.
+	- **smss.exe** is for the session manager service (%SystemRoot%\\System32\\smss.exe)
+		- It starts within seconds of boot time for the master instance
+		- **csrss.exe** The Client/Server Run-Time Subsystem (%SystemRoot%\\System32\\csrss.exe)
+			- A user-mode process for the Windows subsystem. Its duties include managing processes and threads, importing many of the DLLs that provide the Windows API, and facilitating shutdown of the GUI during system shutdown. 
+			- An instance of csrss.exe will run for each session. **Session 0** is for **services** and **Session 1** for the **local console session**. Additional sessions are created through the use of Remote Desktop and/or Fast User Switching. 
+			- Each new session results in a new instance of csrss.exe.
+		- **wininit.exe** is created by an instance of smss.exe. (%SystemRoot%\\System32\\wininit.exe)
+			- This instance of smss.exe is usually exited and so most of the tools won't show the parent process. 
+			- Wininit.exe starts key background processes within Session 0. It starts the Service Control Manager (services.exe), the Local Security Authority process (lsass.exe), and lsaiso.exe for systems with Credential Guard enabled. Note that prior to Windows 10, the Local Session Manager process (lsm.exe) was also started by wininit.exe. As of Windows 10, that functionality has moved to a service DLL (lsm.dll) hosted by svchost.exe.
+			- **services.exe** - (%SystemRoot%\\System32\\services.exe)
+				- Implements the Unified Background Process Manager (UBPM), which is responsible for background activities such as services and scheduled tasks. 
+				- Services.exe also implements the Service Control Manager (SCM), which specifically handles the loading of services and device drivers marked for auto-start. 
+				- In addition, once a user has successfully logged on interactively, the SCM (services.exe) considers the boot successful and sets the Last Known Good control set (HKLM\SYSTEM\Select\LastKnownGood) to the value of the CurrentControlSet.
+				 - **svchost.exe**
+					 - **runtimebroker.exe** - (%SystemRoot%\\System32\\RuntimeBroker.exe)
+						 - RuntimeBroker.exe acts as a proxy between the constrained Universal Windows Platform (UWP) apps (formerly called Metro apps) and the full Windows API. UWP apps have limited capability to interface with hardware and the file system. Broker processes such as RuntimeBroker.exe are therefore used to provide the necessary level of access for UWP apps. Generally, there will be one RuntimeBroker.exe for each UWP app. For example, starting Calculator.exe will cause a corresponding RuntimeBroker.exe process to initiate.
+					 - **taskhostw.exe**
+						 - The generic host process for Windows Tasks. Upon initialization, taskhostw.exe runs a continuous loop listening for trigger events. Example trigger events that can initiate a task include a defined schedule, user logon, system startup, idle CPU time, a Windows log event, workstation lock, or workstation unlock. 
+						 - There are more than 160 tasks preconfigured on a default installation of Windows 10 Enterprise (though many are disabled). All executable files (DLLs & EXEs) used by the default Windows 10 scheduled tasks are signed by Microsoft.
+			- **lsaiso.exe**
+				- When Credential Guard is enabled, the functionality of lsass.exe is split between two processes – itself and lsaiso.exe. Most of the functionality stays within lsass.exe, but the important role of safely storing account credentials moves to lsaiso.exe. It provides safe storage by running in a context that is isolated from other processes through hardware virtualization technology. When remote authentication is required, lsass.exe proxies the requests using an RPC channel with lsaiso.exe in order to authenticate the user to the remote service. Note that if Credential Guard is not enabled, lsaiso.exe should not be running on the system.
+			- **lsass.exe**
+				- The Local Security Authentication Subsystem Service process is responsible for authenticating users by calling an appropriate authentication package specified in HKLM\SYSTEM\CurrentControlSet\Control\Lsa. Typically, this will be Kerberos for domain accounts or MSV1_0 for local accounts. In addition to authenticating users, lsass.exe is also responsible for implementing the local security policy (such as password policies and audit policies) and for writing events to the security event log. Only one instance of this process should occur and it should rarely have child processes (EFS is a known exception).
+				- There should be only one instance of lsass.exe
+				- It's responsible for authenticating users in the system
+		- **winlogon.exe** 
+			- Winlogon handles interactive user logons and logoffs. It launches LogonUI.exe, which uses a credential provider to gather credentials from the user, and then passes the credentials to lsass.exe for validation. Once the user is authenticated, Winlogon loads the user’s NTUSER.DAT into HKCU and starts the user’s shell (usually explorer.exe) via userinit.exe
+			- **userinit.exe**
+				- Describes the processes that the winlogon runs while the user logs on. Establishes network connections and runs explorer.exe
+				- **explorer.exe** - (%SystemRoot%\\explorer.exe)
+					- At its core, Explorer provides users access to files. Functionally, though, it is both a file browser via Windows Explorer (though still explorer.exe) and a user interface providing features such as the user’s Desktop, the Start Menu, the Taskbar, the Control Panel, and application launching via file extension associations and shortcut files. Explorer.exe is the default user interface specified in the Registry value HKLM\SOFTWARE\ Microsoft\Windows NT\CurrentVersion\Winlogon\Shell, though Windows can alternatively function with another interface such as cmd.exe or powershell.exe. Notice that the legitimate explorer.exe resides in the %SystemRoot% directory rather than %SystemRoot%\System32. Multiple instances per user can occur, such as when the option "Launch folder windows in a separate process" is enabled.
+
+https://sansorg.egnyte.com/dl/ZkAyckjFTI

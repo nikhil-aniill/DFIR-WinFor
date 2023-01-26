@@ -1,4 +1,6 @@
-`volatility -f <memdump> imageinfo`
+```shell
+volatility -f <memdump> imageinfo
+```
 See the Profile of the Windows 
 
 `volatility -f <memdump> --profile=<profile> pslist`
@@ -12,6 +14,8 @@ See the Profile of the Windows
 `volatility -f <memdump --profile=<profile> modscan -p <PID>
 
 `volatility -f <memdump --profile=<profile> netscan -p <PID>
+
+`python2 volatility/vol.py -f memory.raw --profile=Win7SP1x86_23418 consoles`
 ``
 
 - **modscan** is used to find prewviously unloaded drivers and drivers that have been hidden/unlinked by rootkits. 
@@ -31,4 +35,17 @@ VADs (Virtual Address Descriptors) are used by the memory manager to track ALL m
 Procdump to dump malicious processes(.exe)
 cmdscan is a plugin built into volatility to find the command ran by the attacker and it's output
 
-[[Memory]]
+#### To access a file used in the memory
+
+To access the script, we will use the filescan plugin to locate the physical address of the file's **_FILE_OBJECT** structure and then use the dumpfiles plugin to extract its content to disk. Here, we need to note that the file may still not exist in memory.
+```bash
+python2 volatility/vol.py -f memory.raw --profile=Win7SP1x86_23418 filescan |grep "update.ps1"
+```
+
+
+```bash
+python2 volatility/vol.py -f memory.raw --profile=Win7SP1x86_23418 dumpfiles -Q 0x000000003f4551c0 -D ./dumps
+```
+cat the contents of the file to view what's inside
+[[Process Genealogy]]
+

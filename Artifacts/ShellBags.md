@@ -29,12 +29,7 @@ interaction times
 ![[Pasted image 20230117111133.png]]
 
 ### Use Case
-ShellBag information is crucial when forensicators need to know when and which  
-folder a user accessed. For instance, when a company suspects an employee leaked a  
-confidential document stored on the network, that employee’s computer may have the  
-ShellBag information that demonstrates the folder containing that document was accessed  
-shortly before the document was leaked. Furthermore, ShellBags may also show the  
-folders or servers that employee should not access. Those findings are critical to the  
-investigation. Or, when a company suspects an employee maliciously deleted the  
-important files on the network, ShellBag information may demonstrate the employee’s  
-computer accessed the folder before the incident happened.
+ShellBag information is crucial when forensicators need to know when and which folder a user accessed. For instance, when a company suspects an employee leaked a confidential document stored on the network, that employee’s computer may have the ShellBag information that demonstrates the folder containing that document was accessed shortly before the document was leaked. Furthermore, ShellBags may also show the folders or servers that employee should not access. Those findings are critical to the investigation. Or, when a company suspects an employee maliciously deleted the important files on the network, ShellBag information may demonstrate the employee’s computer accessed the folder before the incident happened.
+
+###### Shell Bags
+https://www.giac.org/paper/gcfa/9576/windows-shellbag-forensics-in-depth/128522

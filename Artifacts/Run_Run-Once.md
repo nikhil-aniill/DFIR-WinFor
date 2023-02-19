@@ -14,3 +14,4 @@ The Task manager startup tab has the list of programs that will run on system bo
 
 ###### Tools 
 Autorun by Windows - https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns
+Tool is also used in Windows Priv esc - TCM course x

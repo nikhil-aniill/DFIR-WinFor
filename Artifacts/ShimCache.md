@@ -9,6 +9,8 @@ Not all executables in the above screenshot are executed but might be just brows
 
 The Shimcache stores any executables showed in the Explorer window(Even a sliver) through a USB on any network location. Even if the file is deleted the ShimCache still gets populated
 
+Shimcache also stores last modified time of executables executed by the CMD
+
 ###### Location
 It's located in the HKLM\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\AppCombatCache
 

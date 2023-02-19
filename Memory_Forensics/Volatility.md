@@ -21,9 +21,9 @@ See the Profile of the Windows
 - **modscan** is used to find prewviously unloaded drivers and drivers that have been hidden/unlinked by rootkits. 
 - **svchost.exe** should always have a parent  services.exe
 - **lsass.exe** should have a parent of wininit.exe
-- **netscan** can find the connection to a C2 server or data exfiltration
-- malfind finds hidden or injected code/DLLs in user mode memory
-- **hollowfind** find evidence of process hollowing
+- **netscan** plugin can find the connection to a C2 server or data exfiltration
+- **malfind** plugin finds hidden or injected code/DLLs in user mode memory
+- **hollowfind** plugin find evidence of process hollowing
 
 ## VAD and PEB
 

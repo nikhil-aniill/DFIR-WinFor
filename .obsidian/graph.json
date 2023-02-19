@@ -39,7 +39,7 @@
       "query": "tag:#Windows",
       "color": {
         "a": 1,
-        "rgb": 16711769
+        "rgb": 16766208
       }
     },
     {
@@ -74,6 +74,6 @@
   "repelStrength": 9.25007323503564,
   "linkStrength": 0.322234156820623,
   "linkDistance": 126,
-  "scale": 0.9502398502899292,
+  "scale": 1.3992572733559407,
   "close": false
 }

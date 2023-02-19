@@ -23,8 +23,12 @@
             "id": "bcb21efaf548e0a3",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Timestamps/$STD_INFO.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -33,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Triage/Memory.md",
+                "file": "Artifacts/ShellBags.md",
                 "mode": "source",
                 "source": false
               }
@@ -45,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memory_Forensics/Volatility.md",
+                "file": "Schedule.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memory_Forensics/Volatility.md",
+                "file": "Artifacts/ShellBags.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Memory_Forensics/Volatility.md",
+                "file": "Artifacts/ShellBags.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memory_Forensics/Volatility.md"
+                "file": "Artifacts/ShellBags.md"
               }
             }
           }
@@ -191,17 +195,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7c76103836cd3bb4",
+  "active": "6786b1ebb4053c77",
   "lastOpenFiles": [
-    "Memory_Forensics/Process Genealogy.md",
-    "Memory_Forensics/Volatility.md",
+    "Artifacts/Prefetch.md",
+    "Artifacts/Amcache.hve.md",
+    "Artifacts/ShellBags.md",
     "Triage/Memory.md",
-    "Memory_Forensics/Untitled.md",
-    "Timestamps/MACB.md",
-    "Timestamps/$FILE_NAME.md",
-    "Mind Map.canvas",
-    "Artifacts/UserAssist.md",
-    "Artifacts/Recent Docs.md",
-    "Artifacts/Amcache.hve.md"
+    "Triage/Kape.md",
+    "Triage/FTKImager.md",
+    "Triage/Disk.md",
+    "Artifacts/Run_Run-Once.md",
+    "autoruns.md",
+    "Artifacts/ShimCache.md"
   ]
 }
